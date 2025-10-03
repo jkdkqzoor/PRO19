@@ -1,0 +1,85 @@
+a{
+    text-decoration:none;
+    color:black;
+}
+.btn{
+    border:2px dotted red;
+    border-radius:10px;
+    color:red;
+    background-color: azure;
+    font-size: 36px;
+    margin:auto;
+    display:inline;
+    cursor:pointer;
+    margin-right:30px;
+}
+.btn:hover,
+.btn:focus,
+.btn:active{
+    background-color: lightcoral;
+}
+.btn2:hover{
+    background-color:aqua;
+}
+body{
+    background-color: plum;
+}
+#teampage{
+    background-color: aqua;
+}
+.brdr{
+    border:4px solid black;
+    margin-bottom: 50px;
+    padding-block: 10px;
+    padding-inline:10px;
+    text-align:center;
+}
+.header1{
+    border:4px double rebeccapurple;
+    padding-left:250px;
+    padding-block:20px;
+    margin-bottom:40px;
+}
+.endtext{
+    text-align: center;
+}
+#info{
+    text-align: right;
+}
+.btn3{
+    width: 200px;
+    height: 50px;
+    cursor:pointer;
+}
+.btn3:hover,
+.btn3:focus{
+    background-color: lightblue;
+}
+main{
+    border: 4px solid rebeccapurple;
+}
+.btnpl{
+    padding-inline:30px;
+    padding-block:10px;
+}
+.section{
+    display:flex;
+    flex-direction: row;
+}
+.div1{
+    border: 2px double aqua;
+    width: 300px;
+    padding: 20px 15px 25px 30px;
+    display:inline-block;
+    margin:50px 50px;
+}
+.div2{
+    border: 2px double aqua;
+    width:400px;
+    background-color: lightgreen;
+    padding: 30px 50px;
+    display:inline-block;
+    margin:50px 50px;
+}
+
+
