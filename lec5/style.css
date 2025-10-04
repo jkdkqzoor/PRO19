@@ -1,4 +1,4 @@
-.foto{
+/* .foto{
     border-radius: 50%;
     width:80px;
     height: 80px;
@@ -24,4 +24,47 @@
 }
 .title{
     text-align: center;
-}
+} */
+ .rel{
+    background-color: aqua;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    /* top:200px;
+    left:150px; */
+ }
+ .absolute{
+    background-color: yellowgreen;
+    width:150px;
+    height:150px;
+    position:absolute;
+    bottom:150px;
+    right:250px;
+    /* top:0px;
+    left:0px; */
+ }
+ .parent{
+    position:relative;
+    height:250px;
+    border:4px solid red;
+ }
+ .fixed{
+    background-color: burlywood;
+    height:150px;
+    width:150px;
+    position:fixed;
+    /* top:400px;
+    right:150px; *  /
+    /* bottom:0;
+    right:0; */
+ }
+ p{
+    font-size: 56px;
+ }
+ .sticky{
+    background-color: chocolate;
+    height:100px;   
+    position: sticky;
+    top:0;
+
+ }
