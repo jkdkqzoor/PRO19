@@ -1,4 +1,4 @@
-const button = document.getElementById('click');
+// const button = document.getElementById("click");
 
 // button.addEventListener('click', ()=>{
 //     console.log('works');
@@ -25,7 +25,6 @@ const button = document.getElementById('click');
 
 // button.addEventListener('click', removeClick);
 
-
 // const btn = document.getElementById('btn');
 // const result = document.getElementById('result');
 
@@ -44,7 +43,7 @@ const button = document.getElementById('click');
 
 // let setIntervalId = null;
 
-// function changeColors(){ 
+// function changeColors(){
 //     if(setIntervalId !== null) return
 //     setIntervalId = setInterval(() => {
 //         box.style.backgroundColor = `#${Math.floor(Math.random()*1000)+1}`},1000)
@@ -53,34 +52,71 @@ const button = document.getElementById('click');
 // start.addEventListener('click', changeColors);
 // stop1.addEventListener('click', () => {clearInterval(setIntervalId);setIntervalId = null;})
 
-
-
 // document.addEventListener('keydown', (e) =>{
 //     console.log('key',e.key);
 //     console.log('code',e.code);
 // })
 
-const list = document.getElementById('list');
+// const list = document.getElementById("list");
 
-list.addEventListener('click', (e) =>{
-    console.log(e.target.tagName);
-    if(e.target.tagName === 'LI'){
-        
-        for(const li of list.children){
-        li.classList.remove('active');
-        }
-        
-        // e.target.style.backgroundColor = 'green';
-        // list.children.style.backgroundColor = 'lightblue'
-        // console.log(e);
-    }
-    if(e.target.classList == 'active'){
-        e.target.classList.toggle('active');
-        console.log(e.target.classList = 'active');}
-    else{
-        e.target.classList.add('active');}
-    
+// list.addEventListener("click", (e) => {
+//   // console.log(e.target.tagName); 
+  
+//   if (e.target.tagName === "LI") {
+//     if (e.target.classList.contains("active")) {
+//       e.target.classList.remove("active");
+//     } else {
+//         for (const li of list.children) {
+//             li.classList.remove("active");
+//     }
+//       e.target.classList.add("active");
+//     }
+//   }
+// });
 
+// const form  = document.createElement('form');
+// const input = document.createElement('input');
+// const button = document.createElement('button');
+// button.textContent = 'Send'
 
-})
+// form.setAttribute('id','form');
+// // form.setAttribute('action','submit');
 
+// input.setAttribute('type','text');
+// input.setAttribute('id','input');
+
+// button.setAttribute('type','submit');
+// button.setAttribute('id','btn');
+
+// form.addEventListener('submit', (e) => {
+//     e.preventDefault();
+//     console.log('Sent', input.value);
+//     input.value='';});
+
+// form.append(input,button);
+// document.body.prepend(form);
+
+// const input = document.createElement('input');
+
+// input.setAttribute('type', 'checkbox');
+// input.setAttribute('id','inp');
+
+// input.addEventListener('change', () => console.log(input.checked));
+
+// document.body.prepend(input);
+
+// const form = document.getElementById('signupForm');
+// const div = document.getElementById('error');
+// const checkbox = document.querySelector('[name="agree"]');
+
+// form.addEventListener('submit',(e) => {
+//     e.preventDefault();
+//     if(checkbox.checked){
+//         div.textContent = '';
+//         console.log("sent");
+//         form.reset();
+//         return
+
+//     }
+//     div.textContent = 'error';
+// })
